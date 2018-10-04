@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+main(){
+	int b,m;
+	float rt,ta;
+	
+	cout<<"Masukan jumlah angka yang akan dirata-rata  : ";cin>>m;
+	int a[m];
+	
+	for(b=0;b<m;b++){
+		cout<<"Masukkan angka ke-"<<1+b<<" = ";cin>>a[m];
+		ta=ta+a[m];
+	}
+	cout<<endl;
+	rt=ta/m;
+	cout<<"Rata-rata dari angka-angka diatas adalah = "<<rt;
+	
+	
+	return 0;
+}
